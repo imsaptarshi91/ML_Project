@@ -52,6 +52,7 @@ class DataTransformation:
 
         except Exception as e:
             raise CustomException(e,sys)
+        
             
     def initiate_data_transformation(self,train_path,test_path):
         try:
